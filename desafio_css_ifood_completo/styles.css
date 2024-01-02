@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #000000;
 }
 
 h2 {
@@ -21,7 +21,7 @@ h2 {
 }
 
 p {
-  color: white;
+  color: #ffffff;
 }
 
 section {
@@ -76,22 +76,31 @@ section {
   object-fit: contain;
 }
 
-.banner .banner-content button {
-  color: #31A8DD;
-  font-size: 1rem;
-  font-weight: bold;
+.banner-content-botao {
+  
   padding: 16px 32px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
   background-color: transparent;
   border-image: linear-gradient(#3BA1CD, #1572B7);
   border-image-slice: 10;
   border-radius: 30px;
 }
+.banner-content-botao a{
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  color: #31A8DD;
+}
 
 #course-content {
   width: 800px;
   text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 #course-content .modules-list {
